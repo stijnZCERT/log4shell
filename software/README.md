@@ -354,12 +354,9 @@ The `Version` relates to the `Status` column. If `Status` is Vulnerable, Version
 |:----------------|:----------------|:--------------------:|:---------------:|:----------------|-----------:|
 | Carbon Black | Cloud Workload Appliance | Unknown | Mitigation | More information on pages linked bottom of blogpost (behind login)| [source](https://community.carbonblack.com/t5/Documentation-Downloads/Log4Shell-Log4j-Remote-Code-Execution-CVE-2021-44228/ta-p/109134) |
 | Carbon Black | EDR Servers| Unknown | Mitigation | More information on pages linked bottom of blogpost (behind login)| [source](https://community.carbonblack.com/t5/Documentation-Downloads/Log4Shell-Log4j-Remote-Code-Execution-CVE-2021-44228/ta-p/109134) |
-| CareStream | All | | Not vuln | | [source](https://www.carestream.com/en/us/services-and-support/cybersecurity-and-privacy) |
 | CaseWare | Cloud | All | Fix | |[source](https://www.caseware.com/case-knowledge/caseware-ensuring-customers-protected-log4j-vulnerabilities) |
 | CaseWare | IDEA | All | Not vuln | |[source](https://www.caseware.com/case-knowledge/caseware-ensuring-customers-protected-log4j-vulnerabilities) |
 | CaseWare | WorkingPapers | All | Not vuln | |[source](https://www.caseware.com/case-knowledge/caseware-ensuring-customers-protected-log4j-vulnerabilities) |
-| Cepheid | C360 | | Not vuln | | [source](https://www.cepheid.com/en_US/legal/product-security-updates) |
-| Cepheid | GeneXpert | | Investigation | | [source](https://www.cepheid.com/en_US/legal/product-security-updates) |
 | Cerebro | Cerebro Elasticsearch Web Admin | All | Not vuln | Uses logback for logging |[source](https://github.com/lmenezes/cerebro/blob/main/conf/logback.xml#L5) |
 | Cerberus | FTP | Unknown | Not vuln | |[source](https://support.cerberusftp.com/hc/en-us/articles/4412448183571-Cerberus-is-not-affected-by-CVE-2021-44228-log4j-0-day-vulnerability) |
 | Cerebrate | Cerebrate | All | Not vuln | |[source](https://twitter.com/cerebrateproje1/status/1470347775141421058) |
@@ -798,7 +795,7 @@ The `Version` relates to the `Status` column. If `Status` is Vulnerable, Version
 | Extreme Networks | Extreme Management Center (XMC)|| Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
 | Extreme Networks | Extreme Visibility Manager (XVM) ||  Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
 | Extreme Networks | ExtremeAnalytics   || Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
-| Extreme Networks | ExtremeCloud A3 || Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
+| Extreme Networks | ExtremeCloud A3 || Investigation |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
 | Extreme Networks | ExtremeCloud IQ || Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
 | Extreme Networks | ExtremeConnect  || Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
 | Extreme Networks | ExtremeControl  || Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
@@ -810,11 +807,10 @@ The `Version` relates to the `Status` column. If `Status` is Vulnerable, Version
 | Extreme Networks | HiveManager Classic Online || Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
 | Extreme Networks | IQEngine (HiveOS) || Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
 | Extreme Networks | IQVA || Vulnerable |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
-| Extreme Networks | ISW || Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
-| Extreme Networks | NetIron OS || Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
-| Extreme Networks | Network OS || Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
-| Extreme Networks | Nsight    || Investigation |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
-| Extreme Networks | SLX-OS || Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
+| Extreme Networks | ISW || Investigation |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
+| Extreme Networks | NetIron OS || Investigation |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
+| Extreme Networks | Network OS || Investigation |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
+| Extreme Networks | SLX-OS || Investigation |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
 | Extreme Networks | Traffic Sensor || Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
 | Extreme Networks | VOSS || Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
 | Extreme Networks | WiNG || Not vuln |  |  [source](https://extremeportal.force.com/ExtrArticleDetail?an=000100806_ga) |
@@ -892,7 +888,6 @@ The `Version` relates to the `Status` column. If `Status` is Vulnerable, Version
 | GeoSolutions | GeoServer |All versions | Not vuln ||[source](http://geoserver.org/announcements/2021/12/13/logj4-rce-statement.html)|
 | GeoSolutions | Geonetwork | All versions | Workaround ||[source](https://my.geocat.net/knowledgebase/125/Log4j-RCE-CVE-2021-44228-vulnerability-patch.html)|
 | GFI Software | Kerio Connect | | Vulnerable | | [source](https://forums.gfi.com/index.php?t=msg&th=39096&start=0&)|
-| Ghisler | Total Commander | All | Not Vuln | Third Party plugins might contain log4j | [source](https://www.ghisler.com/whatsnew.htm)
 | GitHub | Github Enterprise Server | 3.3.1, 3.2.6, 3.1.14, 3.0.22 | Fix | | [source](https://github.blog/2021-12-13-githubs-response-to-log4j-vulnerability-cve-2021-44228/) |
 | GitLab | GitLab || Not vuln | | [source](https://forum.gitlab.com/t/cve-2021-4428/62763/8)|
 | GoAnywhere| Agents| Unknown| Workaround | | [source](https://www.goanywhere.com/cve-2021-44228-goanywhere-mitigation-steps)|
@@ -1051,13 +1046,12 @@ The `Version` relates to the `Status` column. If `Status` is Vulnerable, Version
 | IBM | All products | | Investigation | | [source](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/)|
 | IBM | Cloud Object Storage | All versions  | Fix | Fix: 3.16.0.53 and 3.16.2.57 | [source](https://www.ibm.com/support/pages/mitigation-and-software-update-cve-2021-44228-vulnerability?cm_sp=s033-_-OCSTXNRM-_-F&mync=F&mynp=OCSTXNRM&myns=s033)|
 | IBM | Curam SPM | 8.0.0, 7.0.11 | Vulnerable | | [source](https://www.ibm.com/blogs/psirt/security-bulletin-vulnerability-in-apache-log4j-may-affect-cram-social-program-management-cve-2019-17571/)|
-| IBM | DB2 Server | 11.5 | Vulnerable | | [source](https://www.ibm.com/support/pages/node/6526462) |
+| IBM | DB2 Server | 11.5 | Vulnerable | | [source]https://www.ibm.com/support/pages/node/6526462|
 | IBM | IBM Netezza Analytics for NPS | All versions <= 11.2.21 | Vulnerable | Fix should be available from 14th Dec | [source](https://www.ibm.com/support/pages/node/6525816)|
 | IBM | IBM Netezza Analytics | All versions <= 3.3.9 | Vulnerable | Fix should be available from 14th Dec | [source](https://www.ibm.com/support/pages/node/6525816)|
 | IBM | IBM Security Access Manager | 9.0.7-ISS-ISAM-FP0002 | Fix |  | [source](https://www.ibm.com/support/pages/node/6526174)|
 | IBM | IBM Security Access Manager | 10.0.2-ISS-ISVA-FP0000 | Fix |  | [source](https://www.ibm.com/support/pages/node/6526174)|
 | IBM | IBM MQ | iFix 9.2-IBM-MQ-LinuxX64-LAIT39386 | Fix |  | [source](https://www.ibm.com/support/pages/node/6526274)|
-| IBM | Power Hardware Management Console | V10.1.1010.0,V9.2.950.0 | Fix | Fix: MH01913,MF69263 | [source](https://www.ibm.com/support/pages/node/6526172)|
 | IBM | Sterling Fulfillment Optimizer | Unknown | Vulnerable | | [source](https://www.ibm.com/support/pages/node/6525544)|
 | IBM | Sterling Inventory Visibility | Unknown | Vulnerable | | [source](https://www.ibm.com/support/pages/node/6525544)|
 | IBM | Sterling Order Management | Unknown | Not vuln | | [source](https://www.ibm.com/support/pages/node/6525544)|
@@ -1343,9 +1337,6 @@ The `Version` relates to the `Status` column. If `Status` is Vulnerable, Version
 | N-able             | Risk Intelligence                                                  | Unknown  |  Vulnerable   |                                                |                                 [source](https://www.n-able.com/security-and-privacy/apache-log4j-vulnerability) |
 | N-able             | RMM                                                                | Unknown  |      Fix      |                                                |                                 [source](https://www.n-able.com/security-and-privacy/apache-log4j-vulnerability) |
 | N-able             | Take Control                                                       | Unknown  |   Not Vuln    |                                                |                                 [source](https://www.n-able.com/security-and-privacy/apache-log4j-vulnerability) |
-| Nagios             | Nagios Core                                                       | Unknown  |   Not Vuln    |                                                |                                 [source](https://www.nagios.com/news/2021/12/update-on-apache-log4j-vulnerability/) |
-| Nagios             | Nagios XI                                                       | Unknown  |   Not Vuln    |                                                |                                 [source](https://www.nagios.com/news/2021/12/update-on-apache-log4j-vulnerability/) |
-| Nagios             | Nagios Log Server                                                      | Unknown  |   Not Vuln    |                                                |                                 [source](https://www.nagios.com/news/2021/12/update-on-apache-log4j-vulnerability/) |
 | Nelson             | Nelson                                                             | 0.16.185 |  Vulnerable   | Workaround is available, but not released yet. | [source](https://github.com/getnelson/nelson/blob/f4d3dd1f1d4f8dfef02487f67aefb9c60ab48bf5/project/custom.scala) |
 | Neo4j              | Neo4j                                                              | > 4.2    |  Vulnerable   | Workaround is available, but not released yet. |                                     [source](https://community.neo4j.com/t/log4j-cve-mitigation-for-neo4j/48856) |
 | NetApp             | Brocade SAN Naviator                                               | Unknown  | Vulnerable |                                                |                                               [source](https://security.netapp.com/advisory/ntap-20211210-0007/) |
@@ -1505,11 +1496,18 @@ The `Version` relates to the `Status` column. If `Status` is Vulnerable, Version
 | Pexip | Pexip Service | all | Fix | | [source](https://www.pexip.com/blog1.0/pexip-statement-on-log4j-vulnerability) |
 | Pexip | Reverse Proxy and TURN Server | all | Not vuln | | [source](https://www.pexip.com/blog1.0/pexip-statement-on-log4j-vulnerability) |
 | Pexip | VMR self-service portal | all | Not vuln | | [source](https://www.pexip.com/blog1.0/pexip-statement-on-log4j-vulnerability) |
-| Philips | IntelliBridge Enterprise | B.13 and B.15 | Vuln | Software only products with customer owned Operating Systems | [source](https://www.philips.com/a-w/security/security-advisories.html) |
-| Philips | IntelliSpace Precision Medicine | | Vuln | Software only products with customer owned Operating Systems | [source](https://www.philips.com/a-w/security/security-advisories.html) |
-| Philips | ISPACS | | Workaround | Philips hosting environment is evaluating the VMware provided workaround and in the process of deploying for managed service customers. | [source](https://www.philips.com/a-w/security/security-advisories.html) |
+| Philips | IntelliBridge Enterprise | B.13 and B.15 | Vuln | Software only products with customer owned Operating Systems. For products solutions where the server was provided it is customer responsibility to validate and deploy patches. | [source](https://www.philips.com/a-w/security/security-advisories.html) |
+| Philips | IntelliSite Pathology Solution 5.1 | L1 | Vuln | | [source](https://www.philips.com/a-w/security/security-advisories.html) |
+| Philips | IntelliSpace PACS | | Workaround | Philips hosting environment is evaluating the VMware provided workaround and in the process of deploying for managed service customers. | [source](https://www.philips.com/a-w/security/security-advisories.html) |
+| Philips | IntelliSpace Precision Medicine | | Vuln | Software only products with customer owned Operating Systems. For products solutions where the server was provided it is customer responsibility to validate and deploy patches. | [source](https://www.philips.com/a-w/security/security-advisories.html) |
+| Philips | Pathology De-identifier 1.0 | L1 | Vuln | | [source](https://www.philips.com/a-w/security/security-advisories.html) |
+| Philips | Performance Bridge | 3.0 | Vuln | Software only products with customer owned Operating Systems. For products solutions where the server was provided by Philips, it will be Philips responsibility to validate and provide patches. | [source](https://www.philips.com/a-w/security/security-advisories.html) |
+| Philips | Pinnacle | 18.x | Vuln | | [source](https://www.philips.com/a-w/security/security-advisories.html) |
+| Philips | Protocol Applications | 1.1 | Vuln | Software only products with customer owned Operating Systems. For products solutions where the server was provided by Philips, it will be Philips responsibility to validate and provide patches. | [source](https://www.philips.com/a-w/security/security-advisories.html) |
 | Philips | RIS Clinic | | Vuln | | [source](https://www.philips.com/a-w/security/security-advisories.html) |
-| Philips | Tasy EMR | | Vuln | | [source](https://www.philips.com/a-w/security/security-advisories.html) |
+| Philips | Scanner Protocol Manager | 1.1 | Vuln | Software only products with customer owned Operating Systems. For products solutions where the server was provided by Philips, it will be Philips responsibility to validate and provide patches. | [source](https://www.philips.com/a-w/security/security-advisories.html) |
+| Philips | Tasy EMR | | Vuln | Software only products with customer owned Operating Systems. For products solutions where the server was provided it is customer responsibility to validate and deploy patches. | [source](https://www.philips.com/a-w/security/security-advisories.html) |
+| Philips | Universal Data Manager (UDM) | 1.x,2.1.x,2.2.x,3.1.x | Workaround | Philips hosting environment is evaluating the VMware provided workaround and in the process of deploying for managed service customers. | [source](https://www.philips.com/a-w/security/security-advisories.html) |
 | Philips | VuePACS | | Vuln | | [source](https://www.philips.com/a-w/security/security-advisories.html) |
 | Phoenix Contact | Cloud Services | | Vulnerable | Remediations are being implemented | [source](https://dam-mdc.phoenixcontact.com/asset/156443151564/1a0f6db6bbc86540bfe4f05fd65877f4/Vulnerability_Statement_Log4J_20211215.pdf) |
 | Phoenix Contact | Physical products containing firmware | |  Not vuln | | [source](https://dam-mdc.phoenixcontact.com/asset/156443151564/1a0f6db6bbc86540bfe4f05fd65877f4/Vulnerability_Statement_Log4J_20211215.pdf) |
@@ -1586,8 +1584,6 @@ The `Version` relates to the `Status` column. If `Status` is Vulnerable, Version
 | QNAP | QuTS hero operating system | | Not Vuln | | [source](https://www.qnap.com/en-uk/security-advisory/qsa-21-58) |
 | QOS.ch          | SLF4J Simple Logging Facade for Java | |  | SLF4J API doesn't protect against the vulnerability when using a vulnerable version of log4j | [source](http://slf4j.org/log4shell.html) |
 | QUEST | Quest KACE SMA | | Not Vuln | | [source](https://support.quest.com/kace-systems-management-appliance/kb/335869/are-the-kace-sma-and-kace-sda-appliances-affected-by-cve-2021-44228) |
-| QUEST | Foglight | 5.9 | Not Vuln | | [source](https://support.quest.com/fr-fr/foglight/kb/335908/are-currently-supported-versions-of-foglight-affected-by-the-latest-log4j-2-vulnerability-apache-log4j-2-cve-2021-44228?kblang=en-US) |
-| QUEST | Foglight | 6.0 | Workaround | | [source](https://support.quest.com/fr-fr/foglight/kb/335908/are-currently-supported-versions-of-foglight-affected-by-the-latest-log4j-2-vulnerability-apache-log4j-2-cve-2021-44228?kblang=en-US) |
 
 ### R
 
@@ -1648,7 +1644,6 @@ The `Version` relates to the `Status` column. If `Status` is Vulnerable, Version
 | Riverbed        | Transaction Analyzer | | Investigation | | [source](https://supportkb.riverbed.com/support/index?page=content&id=S35645&actp=LIST_RECENT) |
 | Riverbed        | UCExpert | | Vulnerable | | [source](https://supportkb.riverbed.com/support/index?page=content&id=S35645&actp=LIST_RECENT) |
 | Riverbed        | WinSec Controller for SteelHead (WSC) | | Not Vuln | | [source](https://supportkb.riverbed.com/support/index?page=content&id=S35645&actp=LIST_RECENT) |
-| RocketChat |All|All|Not Vuln||[source](https://rocket.chat/blog/log4j-software-vulnerability)|
 | RSA             | NetWitness Orchestrator | >= 6.0 | Workaround | Mitigation for the ThreatConnect Application server is available, no impact described | [source](https://community.rsa.com/t5/netwitness-platform-product/netwitness-apache-vulnerability-log4j2-cve-2021-44228-nbsp/ta-p/660540)
 | RSA             | NetWitness Platform | 11.4 | Workaround | It is theoretically possible to exploit the vulnerability to gain shell access to the NetWitness Platform | [source](https://community.rsa.com/t5/netwitness-platform-product/netwitness-apache-vulnerability-log4j2-cve-2021-44228-nbsp/ta-p/660540)
 | RSA             | NetWitness Platform | >= 11.5 | Workaround | It is possible to leak system configuration data | [source](https://community.rsa.com/t5/netwitness-platform-product/netwitness-apache-vulnerability-log4j2-cve-2021-44228-nbsp/ta-p/660540)
@@ -1690,10 +1685,7 @@ The `Version` relates to the `Status` column. If `Status` is Vulnerable, Version
 | SAS Institute   | JMP | | Not vuln | | [source](https://support.sas.com/content/support/en/security-bulletins/remote-code-execution-vulnerability-cve-2021-44228.html) |
 | SAS Institute   | SAS Cloud Solutions | | Workaround | | [source](https://support.sas.com/content/support/en/security-bulletins/remote-code-execution-vulnerability-cve-2021-44228.html) |
 | SAS Institute   | SAS Profile | | Fix | | [source](https://support.sas.com/content/support/en/security-bulletins/remote-code-execution-vulnerability-cve-2021-44228.html) |
-| Schneider Electric | All other products  |  | Investigation | | [source](https://download.schneider-electric.com/files?p_Doc_Ref=SESB-2021-347-01) |
-| Schneider Electric | EcoStruxure IT Expert  |  | Fix | cloud-based offer; no customer action required.  | [source](https://download.schneider-electric.com/files?p_Doc_Ref=SESB-2021-347-01) |
-| Schneider Electric | EcoStruxure IT Gateway  | 1.5.0 - 1.13.0 | Vulnerable | | [source](https://download.schneider-electric.com/files?p_Doc_Ref=SESB-2021-347-01) |
-| Schneider Electric | EcoStruxure IT Gateway  | 1.13.1.5 | Fix | | [source](https://download.schneider-electric.com/files?p_Doc_Ref=SESB-2021-347-01) |
+| Schneider Electric | All products  |  | Investigation | | [source](https://download.schneider-electric.com/files?p_Doc_Ref=SESB-2021-347-01) |
 | Security Onion Solutions | Security Onion | 2.3.90 20211210 | Fix | | [source](https://blog.securityonion.net/2021/12/security-onion-2390-20211210-hotfix-now.html) |
 | Shibboleth      | Shibboleth IdP/SP | | Not Vuln |  | [source](https://shibboleth.net/pipermail/announce/2021-December/000253.html) |
 | Siemens     | Advantage Navigator Cloud Service | | Investigation | | [source](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |
@@ -1852,7 +1844,7 @@ The `Version` relates to the `Status` column. If `Status` is Vulnerable, Version
 | Sprecher Automation | SPRECON-SG | all | Not vuln | | [source](https://www.sprecher-automation.com/en/it-security/security-alerts) |
 | Sprecher Automation | SPRECON-V | all | Not vuln | | [source](https://www.sprecher-automation.com/en/it-security/security-alerts) |
 | Stardog | Stardog | <7.8.1 | Fix | | [source](https://community.stardog.com/t/stardog-7-8-1-available/3411) |
-| Stratodesk | NoTouch | 4.5.231 | Fix | | [source](http://cdn.stratodesk.com/repository/notouch-center/10/4.5.231/0/ReleaseNotes-Stratodesk-NoTouch_Center-4.5.231.html) |
+| Stratodesk | NoTouch | 4.5.231 | Fix | | <http://cdn.stratodesk.com/repository/notouch-center/10/4.5.231/0/ReleaseNotes-Stratodesk-NoTouch_Center-4.5.231.html> |
 | Sumo logic | Sumu logic | 19.361-12 | Fix | | [source](https://help.sumologic.com/Release-Notes/Collector-Release-Notes#december-11-2021-19-361-12) |
 | SuperMicro | BIOS | all | Not vuln | | [source](https://www.supermicro.com/en/support/security/Apache_log4j2)|
 | SuperMicro | BMC | all | Not vuln | | [source](https://www.supermicro.com/en/support/security/Apache_log4j2)|
